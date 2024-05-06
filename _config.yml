@@ -11,8 +11,8 @@ remote_theme: "manid2/lone-wolf-theme"
 bootswatch_theme: "united"
 
 # These settings are always used by Jekyll
-title: "Chapter of Democratic Socialists of America"
-url: https://[dsachapter].dsachapters.org
+title: "West Sound Chapter of Democratic Socialists of America"
+url: https://westsound.dsachapters.org
 
 # These settings ase used by the jekyll-seo-tag plugin. The plugin adds
 # metadata tags for search engines and social networks to better index and
@@ -20,14 +20,14 @@ url: https://[dsachapter].dsachapters.org
 # site more discoverable to others. See this link for more information:
 # https://jekyll.github.io/jekyll-seo-tag/usage/
 # The tagline is used when `page.title` is not defined.
-tagline: "Homepage for our DSA Chapter"
+tagline: "Homepage for West Sound chapter of DSA"
 # The description is used when a page doesn't provide its own description.
 # It will also be used as the page's title tag if neither `page.title` nor
 # `site.tagline` has been defined.
-description: "Homepage for our DSA Chapter"
-author: DSA
+description: "Homepage for the West Sound chapter of DSA"
+author: West Sound DSA
 twitter:
-  username: dsachapter
+  username: westsounddsa
   # The site's default card type. See this link for more information:
   # https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards
   card: summary
@@ -38,14 +38,14 @@ facebook:
   publisher: # 1234
   # A Facebook user ID for domain insights linked to a personal account. I don't know what this means.
   admins: # 1234
-logo: assets/images/smalllogo.png # PNG is SEO friendly
+logo: assets/images/WSDSALogoSmall.jpeg # PNG is SEO friendly
 social:
   name: Chapter of Democratic Socialists of America
   links:
-    - https://twitter.com/dsachapter
-    - https://www.facebook.com/dsachapter
-    - https://www.instagram.com/dsachapter
-    - https://www.github.com/dsachapter
+    - https://twitter.com/westsounddsa
+    - https://www.facebook.com/westsounddsa
+    - https://www.instagram.com/westsounddsa
+    - https://www.github.com/westsoundsdsa
 # Site verifications
 # I don't understand this yet, but maybe this page is helpful:
 # https://support.google.com/webmasters/answer/9008080?hl=en
@@ -198,5 +198,5 @@ defaults:
       path: ""
     values:
       # for SEO and social sharing
-      image: assets/images/smalllogo.png
-      image_alt: Democratic Socialists of America logo
+      image: assets/images/WSDSALogoSmall.jpeg
+      image_alt: West Sound Democratic Socialists of America logo
