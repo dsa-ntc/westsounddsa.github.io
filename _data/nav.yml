@@ -1,14 +1,17 @@
 # header links
 header:
-  - title: "Statements"
-    url: "/blog/"
-    description: "Link to West Sound DSA's Chapter Statements"
+  - title: "About"
+    url: "/about/"
+    description: "Learn more about West Sound DSA"
   - title: "Get Involved"
     url: "/get-involved/"
     description: "Check out what West Sound DSA is working on. Join DSA!"
   - title: "Events Calendar"
     url: "/calendar/"
-    description: "Chapter Events Calendar"
+    description: "West Sound DSA Events Calendar"
+  - title: "Statements"
+    url: "/blog/"
+    description: "Link to West Sound DSA's Chapter Statements"
 
 # footer links
 footer:
