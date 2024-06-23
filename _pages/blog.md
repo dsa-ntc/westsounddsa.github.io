@@ -4,7 +4,7 @@ title: "Blog"
 permalink: /blog/
 ---
 
-Recent statements and articles by DSA Chapter.
+Recent statements and articles by West Sound DSA.
 
 <div class="row my-5">
   {% for post in site.posts %}
