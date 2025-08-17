@@ -12,4 +12,4 @@ The [Democratic Socialists of America](https://www.dsausa.org/) is the largest s
 
 <h2>Events</h2>
 
-Check out our complete [event calendar](../calendar) for all confirmed virtual and in-person events. Solidarity!
+Check out our complete [event calendar](../calendar) for all confirmed virtual and in-person events.
