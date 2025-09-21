@@ -3,6 +3,9 @@ layout: page
 title: "Get Involved"
 permalink: /get-involved/
 ---
+<h2>Events</h2>
+
+Check out our complete [event calendar](../calendar) for all confirmed virtual and in-person events.
 
 <h2>Join DSA!</h2>
 
@@ -10,6 +13,4 @@ The [Democratic Socialists of America](https://www.dsausa.org/) is the largest s
 
 [Join DSA](https://www.dsausa.org/join) today!
 
-<h2>Events</h2>
 
-Check out our complete [event calendar](../calendar) for all confirmed virtual and in-person events.
