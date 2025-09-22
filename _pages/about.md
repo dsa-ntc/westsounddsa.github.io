@@ -9,7 +9,8 @@ We are the West Sound chapter of the Democratic Socialists of America (DSA). Thr
   **We advocate for tenants rights with our partner organization, [Kitsap Housing For All](https://www.kitsaphousing4all.org/)<br>
   We have a zine called "The West Sound Socialist" that promotes local journalism and art while destigmatizing socialist ideas.<br>
   We reach out to local representatives to advocate for the working class. <br>
-  We have a reading group every other Monday. Check out our [Event Calendar](../calendar)*** <br>
+  We have a reading group every other Monday. Check out our [Event Calendar](../calendar)** <br>
+ /br
  
 **Learn more and get involved [here](../get-involved/).**
 <br>
