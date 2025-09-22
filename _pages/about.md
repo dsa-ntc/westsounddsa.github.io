@@ -4,12 +4,6 @@ title: "About"
 permalink: /about/
 ---
 
-Do you believe no one should be too poor to live? <br>
-Do you believe everyone deserves healthcare and housing? <br>
-Do you believe our lives and our planet are more important than profits? <br>
-
-**If you answered yes to any of these questions, you just might be a socialist…** 
-
 We are the West Sound chapter of the Democratic Socialists of America (DSA). <br>
 We advocate for tenants rights with our partner organization, [Kitsap Housing For All](https://www.kitsaphousing4all.org/) <br>
 We have a zine called "The West Sound Socialist" that promotes local journalism and art while destigmatizing socialist ideas. <br>
