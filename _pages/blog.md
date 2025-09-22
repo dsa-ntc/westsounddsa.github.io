@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Blog"
+title: "Statements"
 permalink: /blog/
 ---
 
