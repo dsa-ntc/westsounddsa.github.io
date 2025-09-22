@@ -10,9 +10,9 @@ Throughout Kitsap County, our chapter fights for the good of the many, not the f
   <li>We advocate for tenants rights with our partner organization, [Kitsap Housing For All](https://www.kitsaphousing4all.org/) </li>
   <li>We have a zine called "The West Sound Socialist" that promotes local journalism and art while destigmatizing socialist ideas. </li>
   <li>We reach out to local representatives to advocate for the working class. </li> 
-  <li>We have a reading group every other Monday. Check out our [Event Calendar](../calendar) </li>
+  <li> We have a reading group every other Monday. Check out our [Event Calendar](../calendar) </li>
  
-
+</ul>
 **Learn more and get involved [here](../get-involved/).**
 
 **National DSA Article II. Purpose**
