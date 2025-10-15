@@ -13,8 +13,8 @@ Spreading the good news of socialism throughout Kitsap County, with a kickass bl
 
 <h3>Call for Submissions</h3>
 <B>Theme: Housing</B>
-<br>We are accepting art + writing submissions which address the topic of housing from a socialist perspective.</br>
-<br>Things you might consider:</br>
+<br>We are accepting art + writing submissions which address the topic of housing from a socialist perspective.
+<br>Things you might consider:
 <ul>
   <li>Housing as a human right</li>
   <li>Architecture</li> 
