@@ -15,6 +15,10 @@ header:
   - title: "Statements"
     url: "/blog/"
     description: "Link to West Sound DSA's Chapter Statements"
+  - title: "Zine"
+    url: "/zine/"
+    description: "Link to West Sound DSA's Zine"
+
 
 # footer links
 footer:
