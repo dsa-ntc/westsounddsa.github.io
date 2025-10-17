@@ -28,3 +28,6 @@ westsoundsocialist@gmail.com
 
 
  [Mutual Aid Zine PDF](https://docs.google.com/viewer?url=github.com/dsa-ntc/westsounddsa.github.io/blob/main/assets/images/The%20West%20Sound%20Socialist%20-%20no.%201.pdf)
+
+<embed src="http://github.com/dsa-ntc/westsounddsa.github.io/blob/main/assets/images/The%20West%20Sound%20Socialist%20-%20no.%201.pdf" width="500" height="375" 
+ type="application/pdf">
