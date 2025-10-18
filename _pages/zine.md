@@ -30,5 +30,4 @@ westsoundsocialist@gmail.com
  [Mutual Aid Zine PDF](https://drive.google.com/file/d/19RSzRedicCLJN4r5hftDYNyNPymu6qqT/view?usp=sharing)
 
 
-<!-- <iframe src="https://docs.google.com/gview?url=http://github.com/dsa-ntc/westsounddsa.github.io/blob/main/assets/images/The%20West%20Sound%20Socialist%20-%20no.%201.pdf&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe> -->
 <iframe src="/assets/documents/West Sound Socialist no. 1 standard.pdf" style="width:718px; height:700px;" frameborder="0"></iframe>
