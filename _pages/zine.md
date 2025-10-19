@@ -27,7 +27,7 @@ Spreading the good news of socialism throughout Kitsap County, with a kickass bl
 westsoundsocialist@gmail.com
 
 
- [Mutual Aid Zine PDF](https://drive.google.com/file/d/19RSzRedicCLJN4r5hftDYNyNPymu6qqT/view?usp=sharing)
+ [Mobile Users Access the latest zine here](https://drive.google.com/file/d/19RSzRedicCLJN4r5hftDYNyNPymu6qqT/view?usp=sharing)
 
 
 <iframe src="/assets/documents/West Sound Socialist no. 1 standard.pdf" style="width:718px; height:700px;" frameborder="0"></iframe>
