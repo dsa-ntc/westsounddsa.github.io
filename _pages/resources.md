@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Community Resources"
-permalink: /get-involved/
+permalink: /resources/
 ---
 <h2>Events</h2>
 
