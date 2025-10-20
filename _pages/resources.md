@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Get Involved"
+title: "Community Resources"
 permalink: /get-involved/
 ---
 <h2>Events</h2>
