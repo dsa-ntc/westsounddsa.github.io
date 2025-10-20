@@ -1,8 +1,5 @@
 # header links
 header:
-  - title: "About"
-    url: "/about/"
-    description: "Learn more about West Sound DSA"
   - title: "Get Involved"
     url: "/get-involved/"
     description: "Check out what West Sound DSA is working on. Join DSA!"
@@ -14,10 +11,13 @@ header:
     description: "West Sound DSA Contact"
   - title: "Statements"
     url: "/blog/"
-    description: "Link to West Sound DSA's Chapter Statements"
+    description: "West Sound DSA's Chapter Statements"
   - title: "Zine"
     url: "/zine/"
-    description: "Link to West Sound DSA's Zine"
+    description: "West Sound DSA's Zine"
+  - title: "Community Resources"
+    url: "/resources/"
+    description: "Check out our recommended local organizations"
 
 
 # footer links
