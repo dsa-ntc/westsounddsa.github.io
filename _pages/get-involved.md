@@ -10,9 +10,9 @@ We are the West Sound chapter of the Democratic Socialists of America (DSA). Thr
   We have a zine called ["The West Sound Socialist"](../zine) that promotes local journalism and art, while destigmatizing socialist ideas.<br>
   We reach out to local representatives to advocate for the working class. <br>
   We have a reading group every other Monday. <br>
-  Check out our [Event Calendar](../calendar) We offer a zoom option for our general meetings** <br>
- <br>
- 
+  Check out our complete [Event Calendar](../calendar) for all confirmed virtual and in-person events.** <br>
+<br>
+
 **Come to a meeting or contact us [here](../contact) to get involved.**
 <br>
 <br>
