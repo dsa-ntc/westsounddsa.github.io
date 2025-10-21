@@ -30,4 +30,4 @@ westsoundsocialist@gmail.com
  [Mobile Users access the latest zine here](https://drive.google.com/file/d/19RSzRedicCLJN4r5hftDYNyNPymu6qqT/view?usp=sharing)
 
 
-<iframe src="/assets/documents/West Sound Socialist no. 1 standard.pdf" style="width:718px; height:700px;" frameborder="0"></iframe>
+<iframe src="/assets/documents/West Sound Socialist no. 1 standard.pdf" style="width:1077px; height:1050px;" frameborder="0"></iframe>
