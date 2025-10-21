@@ -6,7 +6,7 @@ permalink: /resources/
 [Kitsap Housing For All](https://https://kitsaphousing4all.org/)<br>
 Our housing justice partner organization <br>
 <br>
-[Kitsap Immigrant Assistance Center (KIAC](https://kitsapiac.org/)<br>
+[Kitsap Immigrant Assistance Center (KIAC)](https://kitsapiac.org/)<br>
 KIAC works for the well-being and empowerment of immigrants through education, advocacy and social justice. <br>
 <br>
 [Kitsap Palestine Solidarity Coalition](https://linktr.ee/kitsap_psc)<br>
