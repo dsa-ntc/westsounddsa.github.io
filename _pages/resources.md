@@ -29,3 +29,6 @@ Event Calendar and THE best magazine in Kitsap <br>
 <br>
 [Kitsap Food Co-Op](https://kitsapfood.coop/co-op/)<br>
 Community owned food store. Best place to buy groceries in Kitsap.<br>
+<br>
+[Bremerton Zine Swap](https://www.bremertonzinefest.com/)<br>
+BZF is the West Sound's first zine and small press festival. It invites us all to connect over shared experiences and explore new ideas in a non-judgmental environment.<br>
