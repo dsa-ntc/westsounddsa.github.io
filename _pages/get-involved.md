@@ -13,7 +13,7 @@ We are the West Sound chapter of the Democratic Socialists of America (DSA). Thr
   Check out our [Event Calendar](../calendar) We offer a zoom option for our general meetings** <br>
  <br>
  
-**Come to a meeting or contact [here](../contact) to get involved.**
+**Come to a meeting or contact us [here](../contact) to get involved.**
 <br>
 <br>
 <br>
