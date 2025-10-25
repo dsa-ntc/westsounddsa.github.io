@@ -2,7 +2,7 @@
 layout: post 
 title: "West Sound DSA Stands In Solidarity With The Transgender Community"
 permalink: /transgender-solidarity-statement
-tag: event
+tag: statements
 short_description: "We affirm our support for and solidarity with our transgender comrades"
 image: assets/images/WSDSALogo_NoText2.png
 ---
