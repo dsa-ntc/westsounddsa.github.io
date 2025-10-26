@@ -34,7 +34,7 @@ Event Calendar and THE best magazine in Kitsap <br>
 [Bremerton Zine Swap](https://www.bremertonzinefest.com/)<br>
 BZF is the West Sound's first zine and small press festival. It invites us all to connect over shared experiences and explore new ideas in a non-judgmental environment.<br>
 <br>
-<br>Advocate Groups</br>
+<h2>Advocate Groups</h2>
 [Kitsap Housing For All](https://https://kitsaphousing4all.org/)<br>
 Our housing justice partner organization <br>
 <br>
