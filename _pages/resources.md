@@ -3,11 +3,12 @@ layout: page
 title: "Community Resources"
 permalink: /resources/
 ---
-[Kitsap Housing For All](https://https://kitsaphousing4all.org/)<br>
-Our housing justice partner organization <br>
-<br>
+
 [Kitsap Immigrant Assistance Center (KIAC)](https://kitsapiac.org/)<br>
 KIAC works for the well-being and empowerment of immigrants through education, advocacy and social justice. <br>
+<br>
+[Plan C: Abortion pills by mail in every state](https://www.plancpills.org/)<br>
+Accessible abortion pills for all <br>
 <br>
 [Kitsap Palestine Solidarity Coalition](https://linktr.ee/kitsap_psc)<br>
 Palestinians, Jews, Muslims, & allies working for peace & justice in Palestine. We support self-determination for all people!<br>
@@ -32,3 +33,7 @@ Community owned food store. Best place to buy groceries in Kitsap.<br>
 <br>
 [Bremerton Zine Swap](https://www.bremertonzinefest.com/)<br>
 BZF is the West Sound's first zine and small press festival. It invites us all to connect over shared experiences and explore new ideas in a non-judgmental environment.<br>
+
+[Kitsap Housing For All](https://https://kitsaphousing4all.org/)<br>
+Our housing justice partner organization <br>
+<br>
