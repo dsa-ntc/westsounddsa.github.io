@@ -16,6 +16,7 @@ We are the West Sound chapter of the Democratic Socialists of America (DSA). Thr
 **Come to a meeting or contact us [here](../contact) to get involved.**
 <br>
 <br>
+Find Our [Chapter Bylaws Here](https://docs.google.com/document/d/1a1McuUvdCADqhg8_baCq7hSJpr670qoVHP-30BmhCy0/edit?usp=sharing)
 <br>
 <br>
 **National DSA Article II. Purpose**
