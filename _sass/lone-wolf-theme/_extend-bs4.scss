@@ -22,10 +22,42 @@ blockquote {
   @extend .p-2;
   background-color: $gray-100;
   border-left: 0.25rem solid $primary;
+  font-size: 1rem;
 
   p {
     @extend .mb-0;
     @extend .font-italic;
+    font-size: 1rem;
+  }
+
+  ol {
+    font-size: 1rem;
+    padding-left: 1.5rem;
+    
+    li {
+      @extend .font-italic;
+      font-size: 1rem;
+    }
+    
+    li::marker {
+      font-size: 1rem;
+      font-weight: normal;
+    }
+  }
+
+  ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    font-size: 1rem;
+    
+    li {
+      @extend .font-italic;
+      font-size: 1rem;
+    }
+    
+    li::marker {
+      font-size: 1rem;
+    }
   }
 
   footer {
@@ -133,6 +165,10 @@ blockquote {
     }
 
     &-article {
+        max-width: 75ch;
+        margin: 0 auto;
+        
+        
         /* Tables inside blog post */
         >table {
             @extend .table;
@@ -207,6 +243,14 @@ blockquote {
 
                 li {
                     @extend .text-truncate;
+                }
+            }
+            
+            .recent-post-item {
+                margin-bottom: 1rem;
+                
+                &:last-child {
+                    margin-bottom: 0;
                 }
             }
         }
