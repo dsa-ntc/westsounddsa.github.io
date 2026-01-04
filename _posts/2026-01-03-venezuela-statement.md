@@ -71,3 +71,9 @@ Throughout the 20th century in Latin America, the US was involved directly in th
 Hundreds of thousands of people, mainly indigenous folks and the peasantry, would lose their lives to conflicts funded and at times directed by the United States. The echoes of colonialism, violence, and bloodshed in the name of US imperialism can still be felt in these countries. As people in Latin America continue to fight for self-determination and an end to the perpetual poverty necessitated by US capital interests, our government continues the inhumane treatment of refugees and persons seeking solace within our own borders. In many ways, the immigration crisis we face now has been manufactured over decades of US imperialism, and our dependence on an economically-depressed Latin America prolongs the conditions which cause them to flee.
 
 War profiteering, human rights abuses, and a bipartisan legacy of undemocratic military intervention are on full display in these operations. Please join West Sound DSA in saying no to perpetuating US imperialism, and no to war on Venezuela.
+
+### Take Action
+
+- **Read the National DSA Statement:** [DSA Condemns Trump's Illegal War Against Venezuela / DSA condena la guerra ilegal de Trump contra Venezuela](https://www.dsausa.org/statements/dsa-condemns-trumps-illegal-war-against-venezuela-dsa-condena-la-guerra-ilegal-de-trump-contra-venezuela/)
+- **Join the "Hands Off Venezuela" Mass Call:** [Tuesday, January 6 at 6pm PT](https://actionnetwork.org/events/hands-off-venezuela-call)
+- **Organize Against This War:** [Get involved in West Sound DSA](https://dsausa.org/join) and join the International Committee's [Venezuela Working Group](https://international.dsausa.org/venezuela-solidarity/)
