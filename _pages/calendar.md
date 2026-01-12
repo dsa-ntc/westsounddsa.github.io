@@ -10,12 +10,12 @@ permalink: /calendar/
 
     <div class="calendar-desktop">
     	<iframe
-    		src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FLos_Angeles&showPrint=0&title=West%20Sound%20DSA&src=d2VzdHNvdW5kZHNhQGdtYWlsLmNvbQ&color=%23d50000"
-    		style="border:solid 1px #777" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+			src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FLos_Angeles&showPrint=0&title=West%20Sound%20DSA%20Events&src=YzFhZmQ3MjA0ZjQ5MDgzY2EyNzE3MzE0ZmMxYjk1Mjk4NDkxMmQ4ZmFhZDgwMjYxOWU1YmNlMGU2MzJjYzJkM0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=d2VzdHNvdW5kZHNhQGdtYWlsLmNvbQ&color=%23ad1457&color=%23ec1f27"
+			style="border:solid 1px #777" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
     </div>
     <div class="calendar-mobile">
     	<iframe
-    		src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FLos_Angeles&showPrint=0&title=West%20Sound%20DSA&mode=AGENDA&src=d2VzdHNvdW5kZHNhQGdtYWlsLmNvbQ&color=%23d50000"
+			src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FLos_Angeles&showPrint=0&title=West%20Sound%20DSA%20Events&mode=AGENDA&src=YzFhZmQ3MjA0ZjQ5MDgzY2EyNzE3MzE0ZmMxYjk1Mjk4NDkxMmQ4ZmFhZDgwMjYxOWU1YmNlMGU2MzJjYzJkM0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=d2VzdHNvdW5kZHNhQGdtYWlsLmNvbQ&color=%23ad1457&color=%23ec1f27"
     		style="border:solid 1px #777" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
     </div>
 
