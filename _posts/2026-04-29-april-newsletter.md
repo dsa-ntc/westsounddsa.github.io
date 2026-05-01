@@ -5,6 +5,7 @@ permalink: /2026-04-Newsletter
 tag: publication
 short_description: "May Day, Kristin For Kitsap Campaign & the May General Meeting"
 image: https://can2-unlayer.s3.us-east-1.amazonaws.com/1777475803624-IMG_7749.JPG
+thumbnail_image: /assets/images/optimized/april-newsletter-thumb.jpg
 image_alt: Altar at the Northwest Detention Center in Tacoma
 show_hero: false
 show_author: false

@@ -5,6 +5,7 @@ permalink: /2026-03-Newsletter
 tag: publication
 short_description: "Anti-Imperialism, No Kings & Socialize With Socialists"
 image: https://can2-unlayer.s3.us-east-1.amazonaws.com/1774641391457-IMG_7781.jpg
+thumbnail_image: /assets/images/optimized/march-newsletter-thumb.jpg
 image_alt: West Sound DSA members at our monthly general meeting
 show_hero: false
 show_author: false
