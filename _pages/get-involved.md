@@ -7,7 +7,7 @@ permalink: /get-involved/
 We are the West Sound chapter of the Democratic Socialists of America (DSA). Throughout Kitsap County, our chapter fights for the good of the many, not the few. <br>
 <br>
   **We advocate for tenants rights with our partner organization, [Kitsap Housing For All](https://www.kitsaphousing4all.org/).<br>
-  We have a zine called ["The West Sound Socialist"](../zine) that promotes local journalism and art, while destigmatizing socialist ideas.<br>
+  We have a zine called ["The West Sound Socialist"](../the-west-sound-socialist) that promotes local journalism and art, while destigmatizing socialist ideas.<br>
   We reach out to local representatives to advocate for the working class. <br>
   We have a reading group every other Monday. <br>
   Check out our complete [Event Calendar](../calendar) for all confirmed virtual and in-person events.** <br>
