@@ -210,12 +210,9 @@ p {
     overflow: hidden;
     width: 100%;
 
-	li, li>* {
+	li {
 		font-size: var(--size-sm);
-		line-height: 2 !important;
-		* {
-			line-height: 2 !important;
-		}
+		line-height: 1.5 !important;
 	}
 
 	h3 > * {
