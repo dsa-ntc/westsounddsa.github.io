@@ -5,6 +5,7 @@ permalink: /2026-02-Newsletter
 tag: publication
 short_description: 'Kristin Lillegard endorsed for 23rd LD, Kitsap Housing For All & Know Your Rights'
 image: https://can2-unlayer.s3.us-east-1.amazonaws.com/1771439541904-IMG_7656.jpg
+thumbnail_image: /assets/images/optimized/february-newsletter-thumb.jpg
 image_alt: West Sound DSA general body endorsing Kristin Lillegard for the 23rd legislative district
 show_hero: false
 show_author: false

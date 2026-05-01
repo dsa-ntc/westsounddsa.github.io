@@ -14,7 +14,7 @@ layout: default
 		<!-- <a href="/get-involved" class="btn btn-primary">Get Involved <i class="fa fa-arrow-right"></i></a> -->
     </div>
     <div class="col-md-6 col-sm-12 home-hero-logo-wrap">
-      <img class="home-hero-logo" src="{{ '/assets/images/wsdsa-logo-homepage.png' | relative_url }}" alt="West Sound DSA logo" />
+      <img class="home-hero-logo" src="{{ '/assets/images/optimized/wsdsa-logo-homepage.png' | relative_url }}" alt="West Sound DSA logo" width="1000" height="549" decoding="async" />
     </div>
   </div>
   <!-- <div class="row">
@@ -36,15 +36,15 @@ layout: default
     <div class="col-12">
       <div class="home-post-list">
         {% for post in site.posts limit:4 %}
-        {% assign post_image = post.image | default: '/assets/images/WSDSALogo_NoText2.png' %}
-        {% assign has_post_image = post.image %}
+        {% assign post_image = post.thumbnail_image | default: post.image | default: '/assets/images/optimized/wsdsa-logo-post-fallback.png' %}
+        {% assign has_post_image = post.thumbnail_image | default: post.image %}
         {% assign post_image_alt = post.image_alt | default: post.title | append: ' thumbnail' %}
         <article class="home-post-item">
           <a class="home-post-media{% unless has_post_image %} home-post-media-fallback{% endunless %}" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
             {% if post_image contains '://' %}
-              <img class="home-post-thumbnail" src="{{ post_image }}" alt="{{ post_image_alt }}">
+              <img class="home-post-thumbnail" src="{{ post_image }}" alt="{{ post_image_alt }}" width="960" height="720" loading="lazy" decoding="async">
             {% else %}
-              <img class="home-post-thumbnail" src="{{ post_image | relative_url }}" alt="{{ post_image_alt }}">
+              <img class="home-post-thumbnail" src="{{ post_image | relative_url }}" alt="{{ post_image_alt }}" width="960" height="720" loading="lazy" decoding="async">
             {% endif %}
           </a>
           <div class="home-post-body">
