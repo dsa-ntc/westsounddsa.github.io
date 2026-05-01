@@ -4,7 +4,11 @@
     --size-lg: 2.369rem;
     --size-md: 1.777rem;
     --size-sm: 1.333rem;
-    --size-xs: 1rem;
+    --size-xs: 1.25rem;
+}
+
+body > * {
+	font-size: var(--size-sm)
 }
 
 h1 {
@@ -46,7 +50,7 @@ h6 {
 p {
     font-family: "ManifoldDSA", sans-serif;
     font-weight: normal;
-    font-size: var(--size-xs);
+    font-size: var(--size-sm);
 }
 
 a {

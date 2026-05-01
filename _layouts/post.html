@@ -27,7 +27,7 @@ layout: default
 
 <section class="container mt-3 blog-post">
   <div class="row">
-    <div class="col-md-8 pb-3">
+    <div class="col-lg-8 pb-3">
       {% if page.show_hero and page_image %}
       <!-- post hero -->
       <figure class="figure">
@@ -69,12 +69,12 @@ layout: default
       {% endif %}
     </div>
     <!-- blog post sidebar -->
-    <div class="col-md-4">
+    <div class="col-lg-4">
       {% include blog-post-sidebar.html %}
     </div>
   </div>
   <div class="row mt-3">
-    <div class="col-md-8">
+    <div class="col-lg-8">
       {% if page.show_comments %}
       <!-- Post comments -->
         {%- include comments.html -%}

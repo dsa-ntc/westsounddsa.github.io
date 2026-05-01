@@ -198,5 +198,5 @@ defaults:
       path: ""
     values:
       # for SEO and social sharing
-      image: assets/images/WSDSALogoSmall.jpeg
+      image: assets/images/WSDSALogo_NoText2.png
       image_alt: West Sound Democratic Socialists of America logo
