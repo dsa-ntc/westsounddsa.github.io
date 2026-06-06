@@ -244,3 +244,62 @@ p {
 		}
 	}
 }
+
+.zine-issue-card {
+    background: var(--highlight);
+    border: 1px solid var(--black-tint-4);
+    display: grid;
+    gap: 0.75rem;
+    padding: 1rem;
+}
+
+.zine-issue-menu {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    min-height: 2.75rem;
+}
+
+.zine-issue-menu-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.zine-issue-cover-wrap {
+    width: 100%;
+}
+
+.zine-issue-cover {
+    border: 1px solid var(--black-tint-4);
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.zine-issue-cover-placeholder {
+    aspect-ratio: 11 / 17;
+    background:
+        linear-gradient(180deg, rgba(190, 0, 0, 0.12), rgba(190, 0, 0, 0.02)),
+        var(--white);
+    border: 1px solid var(--black-tint-4);
+    color: var(--black-tint-1);
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    justify-content: flex-end;
+    padding: 1.25rem;
+}
+
+.zine-issue-cover-kicker {
+    color: var(--red);
+    font-size: var(--size-xs);
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.zine-issue-cover-placeholder strong {
+    font-size: var(--size-lg);
+    line-height: 1.2;
+}

@@ -1,16 +1,18 @@
 ---
 layout: post
-title: "West Sound Socialist No. 1: Mutual Aid"
-permalink: /west-sound-socialist-no-1
+title: "West Sound Socialist No. 2: Housing"
+permalink: /west-sound-socialist-no-2
 tag: publication
-short_description: "Issue 1: Mutual Aid"
+short_description: "Issue 2: Housing"
 show_hero: false
 show_author: false
 show_toc: false
 share: false
-gdrive_id: "19RSzRedicCLJN4r5hftDYNyNPymu6qqT"
-cover_image: /assets/images/optimized/wss-no1-cover-portrait.jpg
-cover_image_alt: "West Sound Socialist No. 1 cover"
+gdrive_id: "1Kxsc_Wbm8f7tj8xSQuQHf4EZpZl08mk-"
+thumbnail_image: /assets/images/optimized/wss-cover-thumb.jpg
+cover_image: /assets/images/optimized/wss-cover-portrait.jpg
+cover_image_alt: "West Sound Socialist No. 2 cover"
+image_alt: "West Sound Socialist No. 2 thumbnail"
 ---
 
 <div class="zine-issue-card my-4">
@@ -32,17 +34,3 @@ cover_image_alt: "West Sound Socialist No. 1 cover"
     {% endif %}
   </div>
 </div>
-
-<h3>Pick up a print copy before they run out at...</h3>
-<ul>
-  <li>Ashley's Pub</li>
-  <li>Backstreet Beat</li>
-  <li>Ballast Books</li>
-  <li>Beats n Cats</li>
-  <li>Bigfoot's Vinyl</li>
-  <li>Cafe Cocina</li>
-  <li>The Charleston</li>
-  <li>Crane's Castle</li>
-  <li>Otherwise Society</li>
-  <li>Over the Moon</li>
-</ul>
