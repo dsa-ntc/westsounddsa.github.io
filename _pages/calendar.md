@@ -20,7 +20,7 @@ permalink: /calendar/
     </div>
 
 <p>  <a href="https://calendar.google.com/calendar/ical/westsounddsa%40gmail.com/public/basic.ics">
-Link to import oir calemdar imto your calendar app</a></p>
+Link to import the calemdar imto your calendar app</a></p>
 </div>
 
 <style>
