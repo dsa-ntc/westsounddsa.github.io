@@ -19,6 +19,8 @@ permalink: /calendar/
     		style="border:solid 1px #777" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
     </div>
 
+<p>  <a href="https://calendar.google.com/calendar/ical/westsounddsa%40gmail.com/public/basic.ics">
+Link to import oir calemdar imto your calendar app</a></p>
 </div>
 
 <style>
