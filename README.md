@@ -113,8 +113,6 @@ bundle install
 
 - `_sass/bootswatch/dist/united/_variables.scss` This controls the variables for colors and font for the webpage, currently defaults are kept and minor changes were made to align to the [DSA style guide](https://design.dsausa.org/national-identity/color-palette/)
 
-## TODO
-
 - Instructions on how to maintain and update pages with GitHub Editor vs Desktop
 - Project website DNS name
 - Remove duplicated data like social media account info
