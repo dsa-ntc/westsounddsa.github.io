@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Join Us July 25 for West Sound DSA's Annual Convention!"
-permalink: /join-us-july-25-for-annual-convention
+title: "Join Us July 25 for our Annual Chapter Convention!"
+permalink: /july-25-annual-convention
 tag: events
 featured: true
 short_description: "@ Poulsbo library: Debate, discussion, talks, elections, chili potluck & ice cream sundaes!"

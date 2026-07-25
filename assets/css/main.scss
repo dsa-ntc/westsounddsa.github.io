@@ -80,12 +80,12 @@ nav ul {
 
 .navbar-nav {
     align-items: center;
-    line-height: 1.1;
+    line-height: 1.2;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    font-size: 1.15rem;
-    line-height: 1.1;
+    font-size: var(--size-xs);
+    line-height: 1.2;
     padding-bottom: 0.75rem;
     padding-top: 0.75rem;
 }
@@ -162,8 +162,8 @@ p {
 }
 
 .feature-title {
-    font-size: 3.2rem;
-    line-height: 1.05;
+    font-size: var(--size-xl);
+    line-height: 1.2;
     margin-bottom: 1rem;
 }
 
@@ -172,8 +172,8 @@ p {
 }
 
 .feature-description {
-    font-size: 1.75rem;
-    line-height: 1.45;
+    font-size: var(--size-md);
+    line-height: 1.5;
     max-width: 42rem;
 }
 
@@ -210,11 +210,11 @@ p {
 }
 
 .home-about-section p {
-    line-height: 1.65;
+    line-height: 1.5;
 }
 
 .home-about-heading {
-    line-height: 1.15;
+    line-height: 1.2;
     margin-bottom: 1.25rem;
 }
 
@@ -279,24 +279,24 @@ p {
     }
 
     .feature-title {
-        font-size: 2.25rem;
-        line-height: 1.1;
+        font-size: var(--size-lg);
+        line-height: 1.2;
     }
 
     .feature-description {
-        font-size: 1.35rem;
-        line-height: 1.45;
+        font-size: var(--size-sm);
+        line-height: 1.5;
     }
 
     .feature-kicker,
     .home-about-section p {
-        font-size: 1.2rem;
-        line-height: 1.55;
+        font-size: var(--size-xs);
+        line-height: 1.5;
     }
 
     .home-about-heading {
-        font-size: 1.75rem;
-        line-height: 1.18;
+        font-size: var(--size-md);
+        line-height: 1.2;
     }
 
     .home-post-item {
@@ -306,13 +306,13 @@ p {
 
 @media (min-width: 576px) and (max-width: 991.98px) {
     .feature-title {
-        font-size: 2.75rem;
-        line-height: 1.08;
+        font-size: var(--size-lg);
+        line-height: 1.2;
     }
 
     .feature-description {
-        font-size: 1.5rem;
-        line-height: 1.45;
+        font-size: var(--size-sm);
+        line-height: 1.5;
     }
 }
 
@@ -331,24 +331,24 @@ p {
 
 .dsa-box {
     border: 1px solid var(--black-tint-4);
-    padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0.75rem;
+    padding: 0.75rem;
 
     h4 {
-        font-size: 1.5rem;
+        font-size: var(--size-sm);
         line-height: 1.2;
     }
 
     .btn {
         font-size: 1rem;
-        padding: 0.4rem 0.65rem;
+        padding: 0.5rem 0.75rem;
     }
 
     .sidebar-tag-link {
         color: var(--black-tint-1);
         display: inline-block;
         font-size: 1rem;
-        line-height: 1.35;
+        line-height: 1.5;
         margin-right: 0.75rem;
         text-decoration: underline;
     }
@@ -359,12 +359,12 @@ p {
         h6,
         a {
             font-size: 1rem;
-            line-height: 1.35;
+            line-height: 1.5;
         }
 
         h6 {
             color: var(--black-tint-3) !important;
-            margin-bottom: 0.2rem !important;
+            margin-bottom: 0.25rem !important;
         }
         
         &:last-child {
