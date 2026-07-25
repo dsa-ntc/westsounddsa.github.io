@@ -10,9 +10,16 @@ thumbnail_image: assets/images/optimized/kristin-for-kitsap.webp
 image_alt: Kristin for Kitsap
 ---
 
-Website: [kristin-for-kitsap.com](https://www.kristin-for-kitsap.com/)
-
-Contact: [info@kristin-for-kitsap.com](mailto:info@kristin-for-kitsap.com)
+<div class="row mb-4 pb-3 border-bottom">
+  <div class="col-sm-6 mb-3 mb-sm-0">
+    <p class="mb-1 font-weight-bold">Website</p>
+    <p class="mb-0"><a href="https://www.kristin-for-kitsap.com/" target="_blank" rel="noopener">kristin-for-kitsap.com</a></p>
+  </div>
+  <div class="col-sm-6">
+    <p class="mb-1 font-weight-bold">Contact</p>
+    <p class="mb-0"><a href="mailto:info@kristin-for-kitsap.com">info@kristin-for-kitsap.com</a></p>
+  </div>
+</div>
 
 ## Kristin's Platform
 

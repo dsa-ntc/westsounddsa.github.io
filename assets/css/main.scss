@@ -364,7 +364,8 @@ p {
 
         h6 {
             color: var(--black-tint-3) !important;
-            margin-bottom: 0.25rem !important;
+            line-height: 1.2;
+            margin-bottom: 0 !important;
         }
         
         &:last-child {
