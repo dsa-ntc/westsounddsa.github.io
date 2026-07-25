@@ -36,7 +36,6 @@ footer:
   - *facebook
   - *twitter
   - *instagram
-  - *github
   - *email
 
 # This list appears in the dropdown of every blog post

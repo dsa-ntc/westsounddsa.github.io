@@ -68,6 +68,28 @@ nav ul {
     }
 }
 
+.navbar > .container {
+    align-items: center;
+}
+
+.navbar-brand {
+    align-items: center;
+    display: flex;
+    line-height: 1;
+}
+
+.navbar-nav {
+    align-items: center;
+    line-height: 1.2;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: var(--size-xs);
+    line-height: 1.2;
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
+}
+
 .blog-post-article ul,
 article ul {
     list-style-type: disc;
@@ -117,15 +139,98 @@ p {
     color: var(--black-tint-1);
 }
 
-.home-hero-logo-wrap {
+.home-featured-post,
+.blog-post-header {
+    background: var(--highlight);
+    border-left: 8px solid var(--red);
+    padding: 2rem;
+}
+
+.home-featured-post {
+    margin-bottom: 4rem;
+}
+
+.blog-post-header {
+    margin: 1.5rem 0 2rem;
+}
+
+.feature-kicker {
+    color: var(--black-tint-2);
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 0.75rem;
+}
+
+.feature-title {
+    font-size: var(--size-xl);
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.feature-title .article-link {
+    font-size: inherit;
+}
+
+.feature-description {
+    font-size: var(--size-md);
+    line-height: 1.5;
+    max-width: 42rem;
+}
+
+.feature-media-wrap {
+    margin-top: 2rem;
+}
+
+.feature-media {
+    aspect-ratio: 16 / 9;
+    background: var(--red);
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.feature-media img {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.blog-post-separator {
+    border: 0;
+    border-top: 1px solid rgba(35, 31, 32, 0.1);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.home-about-section {
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+.home-about-section p {
+    line-height: 1.5;
+}
+
+.home-about-heading {
+    line-height: 1.2;
+    margin-bottom: 1.25rem;
+}
+
+.home-about-media-wrap {
     margin-top: 2rem;
     text-align: center;
 }
 
-.home-hero-logo {
-    height: auto;
-    max-width: 680px;
-    width: 90%;
+.home-about-image {
+    aspect-ratio: 16 / 9;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    outline: 4px solid var(--highlight);
+    outline-offset: -4px;
+    width: 100%;
 }
 
 .home-post-list {
@@ -167,19 +272,54 @@ p {
 }
 
 @media (max-width: 575.98px) {
+    .blog-post-header,
+    .home-featured-post,
+    .home-about-section {
+        padding: 1.25rem;
+    }
+
+    .feature-title {
+        font-size: var(--size-lg);
+        line-height: 1.2;
+    }
+
+    .feature-description {
+        font-size: var(--size-sm);
+        line-height: 1.5;
+    }
+
+    .feature-kicker,
+    .home-about-section p {
+        font-size: var(--size-xs);
+        line-height: 1.5;
+    }
+
+    .home-about-heading {
+        font-size: var(--size-md);
+        line-height: 1.2;
+    }
+
     .home-post-item {
         margin-bottom: 2.5rem;
     }
 }
 
-@media (min-width: 768px) {
-    .home-hero-logo-wrap {
-        margin-top: 0;
-        text-align: right;
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .feature-title {
+        font-size: var(--size-lg);
+        line-height: 1.2;
     }
 
-    .home-hero-logo {
-        width: 100%;
+    .feature-description {
+        font-size: var(--size-sm);
+        line-height: 1.5;
+    }
+}
+
+@media (min-width: 992px) {
+    .feature-media-wrap,
+    .home-about-media-wrap {
+        margin-top: 0;
     }
 }
 
@@ -191,11 +331,42 @@ p {
 
 .dsa-box {
     border: 1px solid var(--black-tint-4);
-    padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0.75rem;
+    padding: 0.75rem;
+
+    h4 {
+        font-size: var(--size-sm);
+        line-height: 1.2;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 0.5rem 0.75rem;
+    }
+
+    .sidebar-tag-link {
+        color: var(--black-tint-1);
+        display: inline-block;
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-right: 0.75rem;
+        text-decoration: underline;
+    }
     
     .recent-post-item {
         margin-bottom: 1rem !important;
+
+        h6,
+        a {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        h6 {
+            color: var(--black-tint-3) !important;
+            line-height: 1.2;
+            margin-bottom: 0 !important;
+        }
         
         &:last-child {
             margin-bottom: 0 !important;
