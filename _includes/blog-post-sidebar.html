@@ -23,7 +23,7 @@
         {%- capture link -%}
             /tags/#posts_in_{{ tag | slugify }}_heading
         {%- endcapture -%}
-        <a class="btn btn-primary" href="{{ link | relative_url }}">{{ tag | strip }}</a>
+        <a class="sidebar-tag-link" href="{{ link | relative_url }}">{{ tag | strip }}</a>
         {% endfor %}
     </div>
     {%- endif -%}

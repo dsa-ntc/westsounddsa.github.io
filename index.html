@@ -4,29 +4,60 @@ layout: default
 
 {% assign about = site.data.copy.global.about %}
 {% assign welcome = site.data.copy.global.welcome %}
+{% assign featured_posts = site.posts | where: "featured", true %}
+{% assign featured_post = featured_posts.first | default: site.posts.first %}
+{% assign home_about_heading = "We are the West Sound chapter of Democratic Socialists of America (DSA)" %}
+{% assign home_about_body = about | remove_first: "<b>We are the West Sound chapter of Democratic Socialists of America (DSA).</b> " %}
 
-<div class="container my-5">
+<div class="container my-5 home-page">
+  {% if featured_post %}
+  {% assign featured_image = featured_post.image | default: featured_post.thumbnail_image | default: '/assets/images/optimized/wsdsa-logo-post-fallback.png' %}
+  {% assign featured_image_alt = featured_post.image_alt | default: featured_post.title %}
+  <section class="home-featured-post">
+    <div class="row align-items-center">
+      <div class="col-lg-6 col-sm-12">
+        <p class="feature-kicker">{{ featured_post.date | date: "%b %-d, %Y" }}</p>
+        <h1 class="feature-title">
+          <a class="article-link" href="{{ featured_post.url | relative_url }}">{{ featured_post.title }}</a>
+        </h1>
+        <p class="feature-description">{{ featured_post.short_description }}</p>
+      </div>
+      <div class="col-lg-6 col-sm-12 feature-media-wrap">
+        <a class="feature-media" href="{{ featured_post.url | relative_url }}" aria-label="{{ featured_post.title }}">
+          {% if featured_image contains '://' %}
+            <img src="{{ featured_image }}" alt="{{ featured_image_alt }}" width="1500" height="842" decoding="async">
+          {% else %}
+            <img src="{{ featured_image | relative_url }}" alt="{{ featured_image_alt }}" width="1500" height="842" decoding="async">
+          {% endif %}
+        </a>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  <section class="home-about-section">
   <div class="row align-items-center">
-    <div class="col-lg-5 col-md-6 col-sm-12">
+    <div class="col-lg-6 col-sm-12">
 		      <!-- <h2>{{ welcome }}</h2> -->
 
-      <p>{{ about }}</p>
+      <h3 class="home-about-heading">{{ home_about_heading }}</h3>
+      <p>{{ home_about_body }}</p>
 		<!-- <a href="/get-involved" class="btn btn-primary">Get Involved <i class="fa fa-arrow-right"></i></a> -->
     </div>
-    <div class="col-md-6 col-sm-12 home-hero-logo-wrap">
-      <img class="home-hero-logo" src="{{ '/assets/images/optimized/wsdsa-logo-homepage.png' | relative_url }}" alt="West Sound DSA logo" width="1000" height="549" decoding="async" />
+    <div class="col-lg-6 col-sm-12 home-about-media-wrap">
+      <img class="home-about-image" src="{{ '/assets/images/optimized/wsdsa-members-about.webp' | relative_url }}" alt="West Sound DSA members" width="1600" height="841" loading="lazy" decoding="async" />
     </div>
   </div>
+  </section>
   <!-- <div class="row">
     <div class="col-12 text-center">
       <i class="fa fa-arrow-down my-5 text-red"></i>
     </div>
   </div> -->
   <div class="row">
-    <!-- <div class="col-12">
+    <div class="col-12">
       <h3 class="my-5">Recent Posts</h3>
-    </div> -->
-	<div class="col-12 my-4"></div>
+    </div>
 	{% if site.posts.size == 0 %}
 	<div class="col-12">
 		<h4> West Sound DSA Stands In Solidarity With The Transgender Community
@@ -35,7 +66,8 @@ layout: default
     {% endif %}
     <div class="col-12">
       <div class="home-post-list">
-        {% for post in site.posts limit:4 %}
+        {% for post in site.posts limit:5 %}
+        {% if post.url != featured_post.url %}
         {% assign post_image = post.thumbnail_image | default: post.image | default: '/assets/images/optimized/wsdsa-logo-post-fallback.png' %}
         {% assign has_post_image = post.thumbnail_image | default: post.image %}
         {% assign post_image_alt = post.image_alt | default: post.title | append: ' thumbnail' %}
@@ -53,6 +85,7 @@ layout: default
             <p>{{ post.short_description }}</p>
           </div>
         </article>
+        {% endif %}
         {% endfor %}
       </div>
     </div>
