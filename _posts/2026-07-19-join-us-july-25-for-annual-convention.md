@@ -3,7 +3,7 @@ layout: post
 title: "Join Us July 25 for our Annual Chapter Convention!"
 permalink: /july-25-annual-convention
 tag: events
-featured: true
+featured: false
 short_description: "@ Poulsbo library: Debate, discussion, talks, elections, chili potluck & ice cream sundaes!"
 image: assets/images/optimized/wsdsa-logo-post-fallback.png
 thumbnail_image: assets/images/optimized/wsdsa-logo-post-fallback.png

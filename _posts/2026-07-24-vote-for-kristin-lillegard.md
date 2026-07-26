@@ -3,7 +3,7 @@ layout: post
 title: "Vote for Kristin Lillegard by August 4th!"
 permalink: /vote-for-kristin-lillegard
 tag: statements
-featured: false
+featured: true
 short_description: "Kristin will champion the working class in the 23rd LD. Vote for her by August 4th!"
 image: assets/images/optimized/kristin-for-kitsap.webp
 thumbnail_image: assets/images/optimized/kristin-for-kitsap.webp
