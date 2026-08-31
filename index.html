@@ -5,25 +5,39 @@ layout: default
 {% assign about = site.data.copy.global.about %}
 {% assign welcome = site.data.copy.global.welcome %}
 {% assign featured_posts = site.posts | where: "featured", true %}
-{% assign featured_post = featured_posts.first | default: site.posts.first %}
+{% if featured_posts.size > 0 %}
+  {% assign featured_post = featured_posts.first %}
+  {% assign featured_title = featured_post.title %}
+  {% assign featured_url = featured_post.url %}
+  {% assign featured_description = featured_post.short_description %}
+  {% assign featured_image = featured_post.image | default: featured_post.thumbnail_image | default: '/assets/images/optimized/wsdsa-logo-post-fallback.png' %}
+  {% assign featured_image_alt = featured_post.image_alt | default: featured_post.title %}
+  {% assign featured_kicker = featured_post.date | date: "%b %-d, %Y" %}
+  {% assign featured_is_post = true %}
+{% else %}
+  {% assign featured_title = "Events Calendar" %}
+  {% assign featured_url = "/calendar/" %}
+  {% assign featured_description = "Join us for upcoming meetings, events, and actions." %}
+  {% assign featured_image = '/assets/images/optimized/wsdsa-logo-post-fallback.png' %}
+  {% assign featured_image_alt = "West Sound Democratic Socialists of America logo on a red background" %}
+  {% assign featured_kicker = "Get involved with West Sound DSA" %}
+  {% assign featured_is_post = false %}
+{% endif %}
 {% assign home_about_heading = "We are the West Sound chapter of Democratic Socialists of America (DSA)" %}
 {% assign home_about_body = about | remove_first: "<b>We are the West Sound chapter of Democratic Socialists of America (DSA).</b> " %}
 
 <div class="container my-5 home-page">
-  {% if featured_post %}
-  {% assign featured_image = featured_post.image | default: featured_post.thumbnail_image | default: '/assets/images/optimized/wsdsa-logo-post-fallback.png' %}
-  {% assign featured_image_alt = featured_post.image_alt | default: featured_post.title %}
   <section class="home-featured-post">
     <div class="row align-items-center">
       <div class="col-lg-6 col-sm-12">
-        <p class="feature-kicker">{{ featured_post.date | date: "%b %-d, %Y" }}</p>
+        <p class="feature-kicker">{{ featured_kicker }}</p>
         <h1 class="feature-title">
-          <a class="article-link" href="{{ featured_post.url | relative_url }}">{{ featured_post.title }}</a>
+          <a class="article-link" href="{{ featured_url | relative_url }}">{{ featured_title }}</a>
         </h1>
-        <p class="feature-description">{{ featured_post.short_description }}</p>
+        <p class="feature-description">{{ featured_description }}</p>
       </div>
       <div class="col-lg-6 col-sm-12 feature-media-wrap">
-        <a class="feature-media" href="{{ featured_post.url | relative_url }}" aria-label="{{ featured_post.title }}">
+        <a class="feature-media" href="{{ featured_url | relative_url }}" aria-label="{{ featured_title }}">
           {% if featured_image contains '://' %}
             <img src="{{ featured_image }}" alt="{{ featured_image_alt }}" width="1500" height="842" decoding="async">
           {% else %}
@@ -33,7 +47,6 @@ layout: default
       </div>
     </div>
   </section>
-  {% endif %}
 
   <section class="home-about-section">
   <div class="row align-items-center">
@@ -67,7 +80,7 @@ layout: default
     <div class="col-12">
       <div class="home-post-list">
         {% for post in site.posts limit:5 %}
-        {% if post.url != featured_post.url %}
+        {% unless featured_is_post and post.url == featured_url %}
         {% assign post_image = post.thumbnail_image | default: post.image | default: '/assets/images/optimized/wsdsa-logo-post-fallback.png' %}
         {% assign has_post_image = post.thumbnail_image | default: post.image %}
         {% assign post_image_alt = post.image_alt | default: post.title | append: ' thumbnail' %}
@@ -85,7 +98,7 @@ layout: default
             <p>{{ post.short_description }}</p>
           </div>
         </article>
-        {% endif %}
+        {% endunless %}
         {% endfor %}
       </div>
     </div>
