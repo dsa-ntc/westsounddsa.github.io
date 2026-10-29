@@ -6,6 +6,7 @@ tag: statements
 short_description: "West Sound DSA stands in solidarity with Cuba and calls for an end to US sanctions on the country."
 # image: assets/images/WSDSALogo_NoText2.png
 # image_alt: West Sound Democratic Socialists of America logo
+featured: true
 ---
 
 West Sound Democratic Socialists of America (West Sound DSA) stands in solidarity with Cuba, condemns the Trump Administration's  actions regarding Cuba, and recognizes that the US should immediately lift all economic sanctions on the country, allowing aid, food, and fuel to enter the country. Despite recent developments within Cuba’s government and its approval of a series of free market reforms under intense US pressure, there is no indication by the Trump Administration for sanctions relief.
