@@ -108,6 +108,22 @@ p {
     line-height: 200%;
 }
 
+.blog-post-article {
+    font-size: 1.125rem;
+    line-height: 1.7;
+
+    p,
+    ul,
+    ol {
+        font-size: inherit;
+        line-height: inherit;
+    }
+
+    blockquote li + li {
+        margin-top: 0.5rem;
+    }
+}
+
 .page-footer-copyright {
     background: var(--red);
 }
@@ -175,6 +191,26 @@ p {
     font-size: var(--size-md);
     line-height: 1.5;
     max-width: 42rem;
+}
+
+.blog-post-header {
+    .feature-title {
+        font-size: clamp(2rem, calc(1.5rem + 2vw), 3rem);
+        font-weight: 700;
+        line-height: 1.15;
+        margin-top: 0;
+    }
+
+    .feature-description {
+        font-size: clamp(1.125rem, calc(1rem + 0.5vw), 1.375rem);
+        line-height: 1.45;
+        margin-bottom: 0;
+    }
+
+    .feature-kicker {
+        font-size: 0.9375rem;
+        font-weight: 600;
+    }
 }
 
 .feature-media-wrap {
