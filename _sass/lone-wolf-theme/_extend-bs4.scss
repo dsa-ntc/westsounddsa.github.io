@@ -19,28 +19,32 @@ a h2, .card h2 {
 // stylize blockquote
 blockquote {
   @extend .blockquote;
-  @extend .p-2;
   background-color: $gray-100;
   border-left: 0.25rem solid $primary;
-  font-size: 1rem;
+  font-size: inherit;
+  padding: 1.25rem 1.5rem;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
 
   p {
     @extend .mb-0;
     @extend .font-italic;
-    font-size: 1rem;
+    font-size: inherit;
   }
 
   ol {
-    font-size: 1rem;
+    font-size: inherit;
     padding-left: 1.5rem;
     
     li {
       @extend .font-italic;
-      font-size: 1rem;
+      font-size: inherit;
     }
     
     li::marker {
-      font-size: 1rem;
+      font-size: inherit;
       font-weight: normal;
     }
   }
@@ -48,15 +52,15 @@ blockquote {
   ul {
     list-style-type: disc;
     padding-left: 1.5rem;
-    font-size: 1rem;
+    font-size: inherit;
     
     li {
       @extend .font-italic;
-      font-size: 1rem;
+      font-size: inherit;
     }
     
     li::marker {
-      font-size: 1rem;
+      font-size: inherit;
     }
   }
 
